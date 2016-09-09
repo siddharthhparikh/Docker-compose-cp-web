@@ -1,0 +1,122 @@
+{
+  "credentials": {
+    "peers": [
+      {
+        "discovery_host": "vp0",
+        "discovery_port": 30304,
+        "api_host": "vp0",
+        "api_port": 5001,
+        "type": "peer",
+	"id": "local_vp0",
+        "api_url": "http://vp0:5001"
+      },
+      {
+        "discovery_host": "vp1",
+        "discovery_port": 30304,
+        "api_host": "vp1",
+        "api_port": 5001,
+	"id": "local_vp1",
+        "api_url": "http://vp1:5001"
+      },
+      {
+        "discovery_host": "vp2",
+        "discovery_port": 30304,
+        "api_host": "vp2",
+        "api_port": 5001,
+	"id": "local_vp2",
+        "api_url": "http://vp2:5001"
+      },
+      {
+        "discovery_host": "vp3",
+        "discovery_port": 30304,
+        "api_host": "vp3",
+        "api_port": 5001,
+	"id": "local_vp3",
+        "api_url": "http://vp3:5001"
+      }
+    ],
+    "ca": {
+      "35f113e9-f1e5-467b-a967-13c347301826_ca": {
+        "url": "membershipsvcs:30303",
+        "discovery_host": "membershipsvcs",
+        "discovery_port": 30304,
+        "api_host": "membershipsvcs",
+        "api_port": 50052
+      }
+    },
+    "users": [
+      {
+        "username": "admin",
+        "secret": "Xurw3yU9zI0l",
+        "enrollId": "admin",
+        "enrollSecret": "Xurw3yU9zI0l"
+      },
+      {
+        "username": "WebAppAdmin",
+        "secret": "DJY27pEnl16d",
+        "enrollId": "WebAppAdmin",
+        "enrollSecret": "DJY27pEnl16d"
+      },
+      {
+        "username": "test_user0",
+        "secret": "MS9qrN8hFjlE",
+        "enrollId": "test_user0",
+        "enrollSecret": "MS9qrN8hFjlE"
+      },
+      {
+        "username": "test_user1",
+        "secret": "jGlNl6ImkuDo",
+        "enrollId": "test_user1",
+        "enrollSecret": "jGlNl6ImkuDo"
+      },
+      {
+        "username": "test_user2",
+        "secret": "zMflqOKezFiA",
+        "enrollId": "test_user2",
+        "enrollSecret": "zMflqOKezFiA"
+      },
+      {
+        "username": "test_user3",
+        "secret": "vWdLCE00vJy0",
+        "enrollId": "test_user3",
+        "enrollSecret": "vWdLCE00vJy0"
+      },
+      {
+        "username": "test_user4",
+        "secret": "4nXSrfoYGFCP",
+        "enrollId": "test_user4",
+        "enrollSecret": "4nXSrfoYGFCP"
+      },
+      {
+        "username": "test_user5",
+        "secret": "yg5DVhm0er1z",
+        "enrollId": "test_user5",
+        "enrollSecret": "yg5DVhm0er1z"
+      },
+      {
+        "username": "test_user6",
+        "secret": "b7pmSxzKNFiw",
+        "enrollId": "test_user6",
+        "enrollSecret": "b7pmSxzKNFiw"
+      },
+      {
+        "username": "test_user7",
+        "secret": "YsWZD4qQmYxo",
+        "enrollId": "test_user7",
+        "enrollSecret": "YsWZD4qQmYxo"
+      },
+      {
+        "username": "test_user8",
+        "secret": "W8G0usrU7jRk",
+        "enrollId": "test_user8",
+        "enrollSecret": "W8G0usrU7jRk"
+      },
+      {
+        "username": "test_user9",
+        "secret": "H80SiB5ODKKQ",
+        "enrollId": "test_user9",
+        "enrollSecret": "H80SiB5ODKKQ"
+      }
+   ]
+  }
+}
